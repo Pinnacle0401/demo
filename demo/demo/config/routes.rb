@@ -1,4 +1,6 @@
 Demo::Application.routes.draw do
+  resources :microposts
+
   get "users/new"
 
   resources :users
